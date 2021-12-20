@@ -1,0 +1,79 @@
+body {
+    background-color: #fff;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.brand-heading {
+    margin-top: 20px;
+}
+
+#mainNav a {
+    color: #000;
+}
+
+#mainNav, #mainNav.navbar-shrink {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn.btn-link.btn-circle {
+    border-color: #42dca3;
+}
+
+#contact {
+    color: #fff;
+}
+
+.linked-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.linked-cards a {
+    color: #000;
+}
+
+.linked-city-card {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    margin-bottom: 40px;
+    transition: all 0.4s ease;
+}
+
+
+.linked-city-card:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* ========== */
+
+.linked-city-card__photo {
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.linked-city-card__captions {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linked-city-card {
+    text-align: center;
+}
+
+.linked-city-card__city {
+    font-weight: bold;
+}
+
+.linked-city-card__city h6 {
+    margin-bottom: 0;
+}
